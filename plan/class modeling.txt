@@ -1,0 +1,30 @@
+Animal
+--------
++ name: string
++ species: string
++ mammal: boolean
+--------
++ eat() 
+- lookForFood() boolean
+
+Book
+--------
++ name: string
++ genre: string
+- pages: int
+--------
++ readTime() float
++ setPages()
++ getPages() int 
+
+Vehicle
+--------
++ name: string
++ make: string
++ model: string
+--------
++ drive()
+- turnLeft()
+- turnRight()
+- accelerate()
+- brake() 
