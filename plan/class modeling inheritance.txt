@@ -1,0 +1,94 @@
+Animal
+--------
++ species: string
++ mammal: boolean
+- hungry: boolean
+--------
++ eat() 
+- lookForFood() boolean
+
+	Fish
+	--------
+	+ species: string
+	+ mammal: boolean (false)
+	--------
+	+ swim()
+
+	Snake
+	--------
+	+ species: string
+	+ mammal: boolean (false)
+	--------
+	+ slither()
+
+	Person
+	--------
+	+ species: string
+	+ mammal: boolean (true)
+	+ name: string
+	--------
+	+ exercise()
+
+Book
+--------
++ pages: int
+--------
++ readTime() int
+
+	Textbook
+	--------
+	+ year: int
+	+ subject: string
+	+ pages: int
+	--------
+	+ readTime() float
+	+ slam()
+
+	AddressBook
+	--------
+	+ year: int
+	+ location: string
+	+ pages: int
+	--------
+	+ readTime() float
+	+ throwAway()
+
+Vehicle
+--------
++ wheels: int
+--------
++ honk()
+
+	Car
+	--------
+	+ make: string
+	+ model: string
+	--------
+	+ drive()
+	- turnLeft()
+	- turnRight()
+	- accelerate()
+	- brake()
+
+	Bicycle
+	--------
+	+ mountainBike: boolean
+	--------
+	+ ride()
+	- turnLeft()
+	- turnRight()
+	- accelerate()
+	- brake()
+
+	Boat
+	--------
+	+ weight: int
+	+ length: float
+	--------
+	+ goTopSpeed()
+
+	HotAirBalloon
+	--------
+	+ color: string
+	--------
+	+ pop()
