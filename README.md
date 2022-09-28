@@ -1,4 +1,4 @@
-# basic-python-classes
+# Basic Python Classes
 
 ## Description
 
